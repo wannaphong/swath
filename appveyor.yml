@@ -13,7 +13,7 @@ environment:
 
 build_script:
   - "%CYGWIN%\\setup-%ARCH%.exe -q"
-  - "%CYGSH% ./build.sh'"
+  - "./build.sh'"
 
 artifacts:
   - name: packages-swath
